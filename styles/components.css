@@ -1,0 +1,48 @@
+/* Navigation Menu */
+
+.nav-menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-menu__item {
+  margin-right: 32px;
+}
+.nav-menu__item:last-child {
+  margin: 0;
+}
+
+.nav-menu__link {
+  font-weight: 500;
+  color: #000c2d;
+  text-decoration: none;
+  line-height: 18px;
+}
+.nav-menu__link:hover {
+  text-decoration: underline;
+}
+.nav-menu__link:active {
+  opacity: 0.3;
+}
+
+/* Button */
+
+.button {
+  display: inline-block;
+  padding: 12px 23px;
+  text-decoration: none;
+  color: #2f70fe;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  border: 1px solid #2f70fe;
+}
+.button:hover {
+  text-decoration: underline;
+}
+.button:active {
+  opacity: 0.3;
+}

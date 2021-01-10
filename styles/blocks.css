@@ -1,0 +1,53 @@
+/* Main Header */
+
+.main-header {
+  padding: 18px 0;
+}
+
+.main-header__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__logo-link {
+  margin-right: 32px;
+}
+
+.main-header__nav-menu {
+  margin-left: auto;
+  margin-right: 32px;
+}
+
+.main-header__button {
+  margin-right: 32px;
+}
+
+.main-header__login-link {
+  font-weight: 500;
+  color: #000C2D;
+  text-decoration: none;
+  line-height: 18px;
+  margin-left: 20px;
+  position: relative;
+}
+.main-header__login-link:hover {
+  text-decoration: underline;
+}
+.main-header__login-link:active {
+  opacity: .3;
+}
+
+.main-header__login-link::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url('../img/login-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: -20px;
+  top: calc(50% - 8px);
+}
