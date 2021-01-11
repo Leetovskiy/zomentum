@@ -4,10 +4,12 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: 27px;
-  color: #000C2D;
+  color: #000c2d;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 

@@ -46,3 +46,66 @@
 .button:active {
   opacity: 0.3;
 }
+
+/* Info Card */
+
+.info-card {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-card_reversed {
+  flex-direction: row-reverse;
+}
+
+.info-card__wrapper {
+  max-width: 410px;
+}
+
+.info-card__title {
+  max-width: 380px;
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37px;
+  color: #181818;
+}
+
+.info-card__text {
+  max-width: 410px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.info-card__link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+  color: #2f70fe;
+  position: relative;
+}
+.info-card__link:hover {
+  text-decoration: underline;
+}
+.info-card__link:active {
+  opacity: 0.3;
+}
+
+.info-card__link::after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: calc(50% - 12px);
+  right: -32px;
+}
