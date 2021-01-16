@@ -89,6 +89,7 @@
   text-decoration: none;
   color: #2f70fe;
   position: relative;
+  padding-right: 8px;
 }
 .info-card__link:hover {
   text-decoration: underline;
@@ -107,5 +108,5 @@
   background-position: center center;
   position: absolute;
   top: calc(50% - 12px);
-  right: -32px;
+  right: -24px;
 }
