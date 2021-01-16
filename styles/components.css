@@ -31,7 +31,8 @@
 /* Button */
 
 .button {
-  display: inline-block;
+  display: block;
+  max-width: max-content;
   padding: 12px 23px;
   text-decoration: none;
   color: #2f70fe;
@@ -45,6 +46,12 @@
 }
 .button:active {
   opacity: 0.3;
+}
+
+.button_filled-black {
+  background-color: #000;
+  color: #fff;
+  border: none;
 }
 
 /* Info Card */
