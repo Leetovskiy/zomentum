@@ -200,3 +200,56 @@
 .info__info-card + .info__info-card {
   margin-top: 100px;
 }
+
+/* Footer */
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+.footer__container {
+  max-width: 996px;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+.footer__wrapper_no-indents {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__title {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.footer__list {
+  padding: 0;
+  list-style: none;
+}
+
+.footer__link {
+  color: #fff;
+  line-height: 18px;
+  text-decoration: none;
+  font-weight: 400;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__copyright,
+.footer__follow-us {
+  line-height: 18px;
+  font-weight: 400;
+  margin-right: 196px;
+}
